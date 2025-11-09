@@ -1,11 +1,12 @@
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Editor from "./pages/Editor";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import AuthGate from "./components/AuthGate";
-import Extras from "./pages/Extras";
-import ExtrasSidebar from "./components/ExtrasSidebar";
+import Editor from "./pages/Editor.jsx";
+import Login from "./pages/Login.jsx";
+import Signup from "./pages/Signup.jsx";
+import AuthGate from "./components/AuthGate.jsx";
+import Extras from "./pages/Extras.jsx";
+import ExtrasSidebar from "./components/ExtrasSidebar.jsx";
+
 import React, { useState } from "react";
 
 
